@@ -1,0 +1,14 @@
+1.can we not include the file connect in databaseclass instead of rewriting the variables again?
+2.why cant we use $row instead of $_session (since we include the usersclass file anyways)?
+3.why can i not use isset() with anything but $_POST["submit]?
+4.what will happen if i remove this from(this->db) in the database classes?
+5.when to put quotations?
+.................................................................................
+1.there must be single quotations around the variables in (values()) of INSERT INTO. 
+2.when we deal with the database we must include the classes functions or we should mention the (conn) object.
+3.if the file wanted is in the same directory  in another folder in your directoy you write it normally,if you want to access a file in an outer directory add two dots before its final two folders
+4.when you write the post method array you right it like that ($_POST).
+5.if you want to nest php inside html already nested inside php just put it like that (".$x.") where x is the variable it acts like an echo statement.
+6. we write the column name of the table when we are ready to display it even though if we use the table name as reference when we first select it in the query.
+7. the (num_rows check on bool) error appears when it cant read rows,that happened because an error in table connections.  
+8.i can send a key to ($_POST)and when trying to access it i shouldnt write the quotations.

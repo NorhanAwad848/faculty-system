@@ -1,0 +1,36 @@
+.body{background-image:img src="../src/images/electric.jpg";
+    background-repeat: no-repeat;}
+.span {
+    color: red;
+}
+ .rounded {
+        border-radius: 1rem !important;
+      }
+.borderr{
+      background-color: #0c0cf842;
+      margin: 25px 150px 90px 100px;
+      
+     
+}
+.formm{
+   
+    margin-left: 90px;
+    margin-right: 90px;
+    
+}
+
+.form-control
+{
+    width:80%;
+    height: 50px;
+}
+.background
+{
+    background-image:url('y.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+
+
+
+}
