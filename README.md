@@ -1,0 +1,1 @@
+Used in this website php language, Html, CSS, SQL.This website is about the faculty system, and how to access views from students and professors. and how professors can add courses and upload timetable of it.
